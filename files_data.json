@@ -1,0 +1,109 @@
+{
+    "anatomy": {
+        "callback_data": "anatomy",
+        "name": "آناتومی",
+        "topics": {
+            "upper_limb": {"name": "اندام فوقانی", "file_id": 200},
+            "lower_limb": {"name": "اندام تحتانی", "file_id": 200},
+            "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 200},
+            "respiratory": {"name": "تنفس", "file_id": 200},
+            "special_senses": {"name": "حواس ویژه", "file_id": 200},
+            "gi": {"name": "گوارش", "file_id": 200},
+            "neuro": {"name": "نوروآناتومی", "file_id": 200},
+            "head_neck": {"name": "سر و گردن", "file_id": 200}
+        }
+    },
+
+    "physiology": {
+        "callback_data": "physiology",
+        "name": "فیزیولوژی",
+        "topics": {
+            "respiratory": {"name": "تنفس", "file_id": 200},
+            "special_senses": {"name": "حواس ویژه", "file_id": 200},
+            "blood": {"name": "خون", "file_id": 200},
+            "endocrine": {"name": "غدد درون ریز", "file_id": 200},
+            "circulatory": {"name": "قلب و گردش خون", "file_id": 200},
+            "gi": {"name": "گوارش", "file_id": 200},
+            "neuro": {"name": "نوروآناتومی", "file_id": 200}
+        }
+    },
+
+    "histology": {
+        "callback_data": "histology",
+        "name": "بافت شناسی",
+        "topics": {
+            "molecular_celluar": {"name": "مولکول و سلول", "file_id": 200},
+            "respiratory": {"name": "تنفس", "file_id": 200},
+            "special_senses": {"name": "حواس ویژه", "file_id": 200},
+            "endocrine": {"name": "غدد درون ریز", "file_id": 200},
+            "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 200},
+            "gi": {"name": "گوارش", "file_id": 200},
+            "neuro": {"name": "اعصاب", "file_id": 200},
+            "basics": {"name": "مقدمات بافت شناسی", "file_id": 200}
+        }
+    },
+
+    "embryology": {
+        "callback_data": "embryology",
+        "name": "جنین شناسی",
+        "topics": {
+            "respiratory": {"name": "تنفس", "file_id": 200},
+            "special_senses": {"name": "حواس ویژه", "file_id": 200},
+            "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 200},
+            "gi": {"name": "گوارش", "file_id": 200},
+            "neuro": {"name": "اعصاب", "file_id": 200},
+            "head_neck": {"name": "سر و گردن", "file_id": 200},
+            "basics": {"name": "مقدمات جنین شناسی", "file_id": 200}
+        }
+    },
+
+    "biochemistry": {
+        "callback_data": "biochemistry",
+        "name": "بیوشیمی",
+        "topics": {
+            "molecular_celluar": {"name": "مولکول و سلول", "file_id": 200},
+            "discipline": {"name": "دیسیپلین", "file_id": 200},
+            "endocrine": {"name": "هورمون ها", "file_id": 200}
+        }
+    },
+
+    "parasitology": {
+        "callback_data": "parasitology",
+        "name": "انگل شناسی",
+        "topics": {
+            "all": {"name": "همه مباحث", "file_id": 200}
+        }
+    },
+
+     "mycology": {
+        "callback_data": "mycology",
+        "name": "قارچ شناسی",
+        "topics": {
+            "all": {"name": "همه مباحث", "file_id": 200}
+        }
+    },
+
+    "health": {
+        "callback_data": "health",
+        "name": "اصول خدمات سلامت",
+        "topics": {
+            "all": {"name": "همه مباحث", "file_id": 200}
+        }
+    },
+
+    "epidemiology": {
+        "callback_data": "epidemiology",
+        "name": "اپیدمیولوژی",
+        "topics": {
+            "all": {"name": "همه مباحث", "file_id": 200}
+        }
+    },
+
+    "food": {
+        "callback_data": "food",
+        "name": "تغذیه",
+        "topics": {
+            "all": {"name": "همه مباحث", "file_id": 200}
+        }
+    }
+}
