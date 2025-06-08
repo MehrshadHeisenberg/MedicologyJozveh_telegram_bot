@@ -1,9 +1,11 @@
+import json
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 from functions import subjects_keyboard_creator, topics_keyboard_creator, forward_file
 
-from config import BOT_TOKEN
-import json
+import os
+
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 with open("./files_data.json", "r", encoding="utf-8") as files_data_json:
     files_data = json.load(files_data_json)
