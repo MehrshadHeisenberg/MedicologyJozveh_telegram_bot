@@ -5,8 +5,7 @@ from functions import subjects_keyboard_creator, topics_keyboard_creator, forwar
 
 import os
 
-# BOT_TOKEN = os.environ.get("BOT_TOKEN")
-BOT_TOKEN = "7544414719:AAFCdGgzNDrsJ_mW-tMaKHAxag6fdgDvCSE"
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 with open("./files_data.json", "r", encoding="utf-8") as files_data_json:
     files_data = json.load(files_data_json)
