@@ -96,7 +96,7 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if query.data.split('_')[0] == "topics":
         reply_markup = topics_keyboard_creator(query.data.split('_')[1])
-        await query.edit_message_text(f"درس: {files_data[query.data.split('_')[1]]["name"]}\n\nخب حالا مبحث مورد نظرتو انتخاب کن:", reply_markup=reply_markup)
+        await query.edit_message_text(f'درس: {files_data[query.data.split("_")[1]]["name"]}\n\nخب حالا مبحث مورد نظرتو انتخاب کن:', reply_markup=reply_markup)
         return
 
     if query.data.split('_')[0] == "send-file":
