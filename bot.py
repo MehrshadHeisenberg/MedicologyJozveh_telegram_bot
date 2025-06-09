@@ -5,7 +5,8 @@ from functions import subjects_keyboard_creator, topics_keyboard_creator, forwar
 
 import os
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+# BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = "7544414719:AAFCdGgzNDrsJ_mW-tMaKHAxag6fdgDvCSE"
 
 with open("./files_data.json", "r", encoding="utf-8") as files_data_json:
     files_data = json.load(files_data_json)
@@ -38,7 +39,7 @@ async def start(update: Update, context=ContextTypes.DEFAULT_TYPE):
 
         await context.bot.send_message(
             chat_id=chat_id,
-            text="اگر میخوای از ربات استفاده کنی، لطفااول داخل کانالمون عضو شو ❤",
+            text="اگر میخوای از ربات استفاده کنی، لطفا اول داخل کانالمون عضو شو ❤",
             reply_markup=reply_markup
         )
         return
@@ -80,6 +81,13 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if query.data == 'start':
         await start(update=update, context=context)
+
+    if query.data.split('_')[1] == '-1':
+        await context.bot.send_message(
+            chat_id=chat_id,
+            text="متاسفانه جزوه این مبحث هنوز داخل ربات قرار نگرفته ولی به زودی قرار میگیره ❤\n\nاگر درس یا مبحثی کلا توی ربات نیست و به جزوه اش نیاز داری یا اینکه جزوه خوبی داری که میخوای به اشتراک بذاری که داخل ربات قرار بگیره، به من پیام بده:\n@MehrshadChKh",
+        )
+        return
 
     if query.data.split('_')[0] == "back":
         if query.data.split('_')[1] == "subjects":
