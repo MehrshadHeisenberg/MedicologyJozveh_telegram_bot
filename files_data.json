@@ -9,6 +9,8 @@
             "respiratory": {"name": "تنفس", "file_id": 411},
             "special_senses": {"name": "حواس ویژه", "file_id": 415},
             "gi": {"name": "گوارش", "file_id": 414},
+            "renal": {"name": "کلیه", "file_id": -1},
+            "genital": {"name": "تولید مثل", "file_id": -1},
             "neuro": {"name": "نوروآناتومی", "file_id": 416},
             "head_neck": {"name": "سر و گردن", "file_id": 412}
         }
@@ -25,6 +27,8 @@
             "circulatory": {"name": "گردش خون", "file_id": 418},
             "heart": {"name": "قلب", "file_id": 423},
             "gi": {"name": "گوارش", "file_id": 421},
+            "renal": {"name": "کلیه", "file_id": -1},
+            "genital": {"name": "تولید مثل", "file_id": -1},
             "neuro": {"name": "نوروفیزیولوژی", "file_id": 425}
         }
     },
@@ -40,6 +44,8 @@
             "endocrine": {"name": "غدد درون ریز", "file_id": 433},
             "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 430},
             "gi": {"name": "گوارش", "file_id": 432},
+            "renal": {"name": "کلیه", "file_id": -1},
+            "genital": {"name": "تولید مثل", "file_id": -1},
             "neuro": {"name": "اعصاب", "file_id": 434}
         }
     },
@@ -53,6 +59,8 @@
             "special_senses": {"name": "حواس ویژه", "file_id": 442},
             "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 438},
             "gi": {"name": "گوارش", "file_id": 443},
+            "renal": {"name": "کلیه", "file_id": -1},
+            "genital": {"name": "تولید مثل", "file_id": -1},
             "neuro": {"name": "اعصاب", "file_id": 441},
             "head_neck": {"name": "سر و گردن", "file_id": 440}
         }
@@ -64,7 +72,9 @@
         "topics": {
             "molecular_celluar": {"name": "مولکول و سلول", "file_id": 445},
             "discipline": {"name": "دیسیپلین", "file_id": 446},
-            "endocrine": {"name": "هورمون ها", "file_id": 447}
+            "endocrine": {"name": "هورمون ها", "file_id": 447},
+            "renal": {"name": "کلیه", "file_id": -1},
+            "genital": {"name": "تولید مثل", "file_id": -1}
         }
     },
 
