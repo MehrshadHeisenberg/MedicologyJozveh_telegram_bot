@@ -133,7 +133,7 @@
             "anatomy_atlas": {
                 "callback_data": "anatomy_atlas",
                 "name": "اطلس آناتومی",
-                "files": [504, 505]
+                "files": [493, 495]
             },
             "anatomy": {
                 "callback_data": "anatomy",
@@ -141,7 +141,7 @@
 
                 "english": { 
                     "name": "انگلیسی",
-                    "files": [506, 507]
+                    "files": [496, 497]
                 },
                 "translated": { 
                     "name": "ترجمه",
@@ -153,11 +153,11 @@
                 "name": "فیزیولوژی",
                 "english": { 
                     "name": "انگلیسی",
-                    "files": [509]
+                    "files": [498]
                 },
                 "translated": { 
                     "name": "ترجمه",
-                    "files": [510]
+                    "files": [499]
                 }
             },
             "biochemistry": {
@@ -165,11 +165,11 @@
                 "name": "بیوشیمی",
                 "english": { 
                     "name": "انگلیسی",
-                    "files": [511, 512]
+                    "files": [500, 501]
                 },
                 "translated": { 
                     "name": "ترجمه",
-                    "files": [513]
+                    "files": [502]
                 }
             },
             "histology": {
@@ -177,11 +177,11 @@
                 "name": "بافت شناسی",
                 "english": { 
                     "name": "انگلیسی",
-                    "files": [514]
+                    "files": [503]
                 },
                 "translated": { 
                     "name": "ترجمه",
-                    "files": [517]
+                    "files": [504]
                 }
             },
             "embryology": {
@@ -189,11 +189,11 @@
                 "name": "جنین شناسی",
                 "english": { 
                     "name": "انگلیسی",
-                    "files": [518]
+                    "files": [505]
                 },
                 "translated": { 
                     "name": "ترجمه",
-                    "files": [519]
+                    "files": [506]
                 }
             },
             "parasitology": {
@@ -201,7 +201,7 @@
                 "name": "انگل شناسی",
                 "english": { 
                     "name": "انگلیسی",
-                    "files": [520]
+                    "files": [507]
                 },
                 "translated": { 
                     "name": "ترجمه",
@@ -225,11 +225,11 @@
                 "name": "باکتری شناسی",
                 "english": { 
                     "name": "انگلیسی",
-                    "files": [521, 522]
+                    "files": [508, 509]
                 },
                 "translated": { 
                     "name": "ترجمه",
-                    "files": [523, 524]
+                    "files": [510, 511]
                 }
             },
             "epidemiology": {
@@ -237,28 +237,28 @@
                 "name": "اپیدمیولوژی",
                 "english": { 
                     "name": "انگلیسی",
-                    "files": [525]
+                    "files": [512]
                 },
                 "translated": {
                     "name": "ترجمه",
-                    "files": [526]
+                    "files": [513]
                 }
             },
             "english": {
                 "callback_data": "english",
                 "name": "زبان انگلیسی",
-                "files": [527, 528]
+                "files": [514, 515]
             },
             "immunology": {
                 "callback_data": "immunology",
                 "name": "ایمنی",
                 "english": { 
                     "name": "انگلیسی",
-                    "files": [530]
+                    "files": [516]
                 },
                 "translated": {
                     "name": "ترجمه",
-                    "files": [531]
+                    "files": [517]
                 }
             }
         }
