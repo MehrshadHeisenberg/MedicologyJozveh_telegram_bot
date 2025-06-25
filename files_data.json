@@ -1,120 +1,266 @@
+
 {
-    "anatomy": {
-        "callback_data": "anatomy",
-        "name": "آناتومی",
-        "topics": {
-            "upper_limb": {"name": "اندام فوقانی", "file_id": 409},
-            "lower_limb": {"name": "اندام تحتانی", "file_id": 410},
-            "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 413},
-            "respiratory": {"name": "تنفس", "file_id": 411},
-            "special_senses": {"name": "حواس ویژه", "file_id": 415},
-            "gi": {"name": "گوارش", "file_id": 414},
-            "renal": {"name": "کلیه", "file_id": -1},
-            "genital": {"name": "تولید مثل", "file_id": -1},
-            "neuro": {"name": "نوروآناتومی", "file_id": 416},
-            "head_neck": {"name": "سر و گردن", "file_id": 412}
-        }
-    },
+    "pamphlets": {
+        "callback_data": "pamphlets",
+        "name": "جزوه",
 
-    "physiology": {
-        "callback_data": "physiology",
-        "name": "فیزیولوژی",
-        "topics": {
-            "respiratory": {"name": "تنفس", "file_id": 420},
-            "special_senses": {"name": "حواس ویژه", "file_id": 424},
-            "blood": {"name": "خون", "file_id": 419},
-            "endocrine": {"name": "غدد درون ریز", "file_id": 422},
-            "circulatory": {"name": "گردش خون", "file_id": 418},
-            "heart": {"name": "قلب", "file_id": 423},
-            "gi": {"name": "گوارش", "file_id": 421},
-            "renal": {"name": "کلیه", "file_id": -1},
-            "genital": {"name": "تولید مثل", "file_id": -1},
-            "neuro": {"name": "نوروفیزیولوژی", "file_id": 425}
-        }
-    },
+        "subjects": {
+            "anatomy": {
+                "callback_data": "anatomy",
+                "name": "آناتومی",
+                "topics": {
+                    "upper_limb": {"name": "اندام فوقانی", "file_id": 409},
+                    "lower_limb": {"name": "اندام تحتانی", "file_id": 410},
+                    "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 413},
+                    "respiratory": {"name": "تنفس", "file_id": 411},
+                    "special_senses": {"name": "حواس ویژه", "file_id": 415},
+                    "gi": {"name": "گوارش", "file_id": 414},
+                    "renal": {"name": "کلیه", "file_id": 461},
+                    "genital": {"name": "تولید مثل", "file_id": -1},
+                    "neuro": {"name": "نوروآناتومی", "file_id": 416},
+                    "head_neck": {"name": "سر و گردن", "file_id": 412}
+                }
+            },
 
-    "histology": {
-        "callback_data": "histology",
-        "name": "بافت شناسی",
-        "topics": {
-            "basics": {"name": "مقدمات بافت شناسی", "file_id": 428},
-            "molecular_celluar": {"name": "مولکول و سلول", "file_id": 429},
-            "respiratory": {"name": "تنفس", "file_id": 431},
-            "special_senses": {"name": "حواس ویژه", "file_id": 435},
-            "endocrine": {"name": "غدد درون ریز", "file_id": 433},
-            "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 430},
-            "gi": {"name": "گوارش", "file_id": 432},
-            "renal": {"name": "کلیه", "file_id": -1},
-            "genital": {"name": "تولید مثل", "file_id": -1},
-            "neuro": {"name": "اعصاب", "file_id": 434}
-        }
-    },
+            "physiology": {
+                "callback_data": "physiology",
+                "name": "فیزیولوژی",
+                "topics": {
+                    "respiratory": {"name": "تنفس", "file_id": 420},
+                    "special_senses": {"name": "حواس ویژه", "file_id": 424},
+                    "blood": {"name": "خون", "file_id": 419},
+                    "endocrine": {"name": "غدد درون ریز", "file_id": 422},
+                    "circulatory": {"name": "گردش خون", "file_id": 418},
+                    "heart": {"name": "قلب", "file_id": 423},
+                    "gi": {"name": "گوارش", "file_id": 421},
+                    "renal": {"name": "کلیه", "file_id": -1},
+                    "genital": {"name": "تولید مثل", "file_id": -1},
+                    "neuro": {"name": "نوروفیزیولوژی", "file_id": 425}
+                }
+            },
 
-    "embryology": {
-        "callback_data": "embryology",
-        "name": "جنین شناسی",
-        "topics": {
-            "basics": {"name": "مقدمات جنین شناسی", "file_id": 437},
-            "respiratory": {"name": "تنفس", "file_id": 439},
-            "special_senses": {"name": "حواس ویژه", "file_id": 442},
-            "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 438},
-            "gi": {"name": "گوارش", "file_id": 443},
-            "renal": {"name": "کلیه", "file_id": -1},
-            "genital": {"name": "تولید مثل", "file_id": -1},
-            "neuro": {"name": "اعصاب", "file_id": 441},
-            "head_neck": {"name": "سر و گردن", "file_id": 440}
-        }
-    },
+            "histology": {
+                "callback_data": "histology",
+                "name": "بافت شناسی",
+                "topics": {
+                    "basics": {"name": "مقدمات بافت شناسی", "file_id": 428},
+                    "molecular_celluar": {"name": "مولکول و سلول", "file_id": 429},
+                    "respiratory": {"name": "تنفس", "file_id": 431},
+                    "special_senses": {"name": "حواس ویژه", "file_id": 435},
+                    "endocrine": {"name": "غدد درون ریز", "file_id": 433},
+                    "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 430},
+                    "gi": {"name": "گوارش", "file_id": 432},
+                    "renal": {"name": "کلیه", "file_id": -1},
+                    "genital": {"name": "تولید مثل", "file_id": -1},
+                    "neuro": {"name": "اعصاب", "file_id": 434}
+                }
+            },
 
-    "biochemistry": {
-        "callback_data": "biochemistry",
-        "name": "بیوشیمی",
-        "topics": {
-            "molecular_celluar": {"name": "مولکول و سلول", "file_id": 445},
-            "discipline": {"name": "دیسیپلین", "file_id": 446},
-            "endocrine": {"name": "هورمون ها", "file_id": 447},
-            "renal": {"name": "کلیه", "file_id": -1},
-            "genital": {"name": "تولید مثل", "file_id": -1}
-        }
-    },
+            "embryology": {
+                "callback_data": "embryology",
+                "name": "جنین شناسی",
+                "topics": {
+                    "basics": {"name": "مقدمات جنین شناسی", "file_id": 437},
+                    "respiratory": {"name": "تنفس", "file_id": 439},
+                    "special_senses": {"name": "حواس ویژه", "file_id": 442},
+                    "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 438},
+                    "gi": {"name": "گوارش", "file_id": 443},
+                    "renal": {"name": "کلیه", "file_id": 462},
+                    "genital": {"name": "تولید مثل", "file_id": -1},
+                    "neuro": {"name": "اعصاب", "file_id": 441},
+                    "head_neck": {"name": "سر و گردن", "file_id": 440}
+                }
+            },
 
-    "parasitology": {
-        "callback_data": "parasitology",
-        "name": "انگل شناسی",
-        "topics": {
-            "all": {"name": "همه مباحث", "file_id": 449}
-        }
-    },
+            "biochemistry": {
+                "callback_data": "biochemistry",
+                "name": "بیوشیمی",
+                "topics": {
+                    "molecular_celluar": {"name": "مولکول و سلول", "file_id": 445},
+                    "discipline": {"name": "دیسیپلین", "file_id": 446},
+                    "endocrine": {"name": "هورمون ها", "file_id": 447},
+                    "renal": {"name": "کلیه", "file_id": 463},
+                    "genital": {"name": "تولید مثل", "file_id": -1}
+                }
+            },
 
-     "mycology": {
-        "callback_data": "mycology",
-        "name": "قارچ شناسی",
-        "topics": {
-            "all": {"name": "همه مباحث", "file_id": 450}
-        }
-    },
+            "parasitology": {
+                "callback_data": "parasitology",
+                "name": "انگل شناسی",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": 449}
+                }
+            },
 
-    "health": {
-        "callback_data": "health",
-        "name": "اصول خدمات سلامت",
-        "topics": {
-            "all": {"name": "همه مباحث", "file_id": 451}
-        }
-    },
+            "mycology": {
+                "callback_data": "mycology",
+                "name": "قارچ شناسی",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": 450}
+                }
+            },
 
-    "epidemiology": {
-        "callback_data": "epidemiology",
-        "name": "اپیدمیولوژی",
-        "topics": {
-            "all": {"name": "همه مباحث", "file_id": 452}
-        }
-    },
+            "health": {
+                "callback_data": "health",
+                "name": "اصول خدمات سلامت",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": 451}
+                }
+            },
 
-    "food": {
-        "callback_data": "food",
-        "name": "تغذیه",
-        "topics": {
-            "all": {"name": "همه مباحث", "file_id": 453}
+            "epidemiology": {
+                "callback_data": "epidemiology",
+                "name": "اپیدمیولوژی",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": 452}
+                }
+            },
+
+            "food": {
+                "callback_data": "food",
+                "name": "تغذیه",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": 453}
+                }
+            }
+        }
+    },    
+
+    "refrences": {
+        "callback_data": "refrences",
+        "name": "رفرنس",
+        "subjects": {
+            "anatomy_atlas": {
+                "callback_data": "anatomy_atlas",
+                "name": "اطلس آناتومی",
+                "files": [504, 505]
+            },
+            "anatomy": {
+                "callback_data": "anatomy",
+                "name": "آناتومی",
+
+                "english": { 
+                    "name": "انگلیسی",
+                    "files": [506, 507]
+                },
+                "translated": { 
+                    "name": "ترجمه",
+                    "files": []
+                }
+            },
+            "physiology": {
+                "callback_data": "physiology",
+                "name": "فیزیولوژی",
+                "english": { 
+                    "name": "انگلیسی",
+                    "files": [509]
+                },
+                "translated": { 
+                    "name": "ترجمه",
+                    "files": [510]
+                }
+            },
+            "biochemistry": {
+                "callback_data": "biochemistry",
+                "name": "بیوشیمی",
+                "english": { 
+                    "name": "انگلیسی",
+                    "files": [511, 512]
+                },
+                "translated": { 
+                    "name": "ترجمه",
+                    "files": [513]
+                }
+            },
+            "histology": {
+                "callback_data": "histology",
+                "name": "بافت شناسی",
+                "english": { 
+                    "name": "انگلیسی",
+                    "files": [514]
+                },
+                "translated": { 
+                    "name": "ترجمه",
+                    "files": [517]
+                }
+            },
+            "embryology": {
+                "callback_data": "embryology",
+                "name": "جنین شناسی",
+                "english": { 
+                    "name": "انگلیسی",
+                    "files": [518]
+                },
+                "translated": { 
+                    "name": "ترجمه",
+                    "files": [519]
+                }
+            },
+            "parasitology": {
+                "callback_data": "parasitology",
+                "name": "انگل شناسی",
+                "english": { 
+                    "name": "انگلیسی",
+                    "files": [520]
+                },
+                "translated": { 
+                    "name": "ترجمه",
+                    "files": []
+                }
+            },
+            "mycology": {
+                "callback_data": "mycology",
+                "name": "قارچ شناسی",
+                "english": { 
+                    "name": "انگلیسی",
+                    "files": []
+                },
+                "translated": { 
+                    "name": "ترجمه",
+                    "files": []
+                }
+            },
+            "bacteriology": {
+                "callback_data": "bacteriology",
+                "name": "باکتری شناسی",
+                "english": { 
+                    "name": "انگلیسی",
+                    "files": [521, 522]
+                },
+                "translated": { 
+                    "name": "ترجمه",
+                    "files": [523, 524]
+                }
+            },
+            "epidemiology": {
+                "callback_data": "epidemiology",
+                "name": "اپیدمیولوژی",
+                "english": { 
+                    "name": "انگلیسی",
+                    "files": [525]
+                },
+                "translated": {
+                    "name": "ترجمه",
+                    "files": [526]
+                }
+            },
+            "english": {
+                "callback_data": "english",
+                "name": "زبان انگلیسی",
+                "files": [527, 528]
+            },
+            "immunology": {
+                "callback_data": "immunology",
+                "name": "ایمنی",
+                "english": { 
+                    "name": "انگلیسی",
+                    "files": [530]
+                },
+                "translated": {
+                    "name": "ترجمه",
+                    "files": [531]
+                }
+            }
         }
     }
 }
