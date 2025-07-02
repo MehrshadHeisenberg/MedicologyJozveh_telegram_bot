@@ -33,7 +33,7 @@
                     "circulatory": {"name": "گردش خون", "file_id": 418},
                     "heart": {"name": "قلب", "file_id": 423},
                     "gi": {"name": "گوارش", "file_id": 421},
-                    "renal": {"name": "کلیه", "file_id": -1},
+                    "renal": {"name": "کلیه", "file_id": 541},
                     "genital": {"name": "تولید مثل", "file_id": -1},
                     "neuro": {"name": "نوروفیزیولوژی", "file_id": 425}
                 }
@@ -50,7 +50,7 @@
                     "endocrine": {"name": "غدد درون ریز", "file_id": 433},
                     "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 430},
                     "gi": {"name": "گوارش", "file_id": 432},
-                    "renal": {"name": "کلیه", "file_id": -1},
+                    "renal": {"name": "کلیه", "file_id": 542},
                     "genital": {"name": "تولید مثل", "file_id": -1},
                     "neuro": {"name": "اعصاب", "file_id": 434}
                 }
