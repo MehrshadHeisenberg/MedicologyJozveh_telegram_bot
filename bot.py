@@ -3,7 +3,10 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 from functions import subjects_keyboard_creator, pamphlets_keyboard_creator, refrences_keyboard_creator, content_keyboard_creator, forward_file
 
+from dotenv import load_dotenv
 import os
+
+load_dotenv()
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
