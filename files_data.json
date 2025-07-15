@@ -1,5 +1,5 @@
 
-{
+{   
     "pamphlets": {
         "callback_data": "pamphlets",
         "name": "جزوه",
@@ -97,6 +97,14 @@
                 "name": "قارچ شناسی",
                 "topics": {
                     "all": {"name": "همه مباحث", "file_id": 450}
+                }
+            },
+            
+            "immunology": {
+                "callback_data": "immunology",
+                "name": "ایمنی شناسی",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": 603}
                 }
             },
 
@@ -259,6 +267,30 @@
                 "translated": {
                     "name": "ترجمه",
                     "files": [517]
+                }
+            }
+        }
+    },
+
+    "tutorials": {
+        "callback_data": "tutorials",
+        "name": "آموزش های مدیکولوژی",
+
+        "subjects": {
+            "anatomy": {
+                "callback_data": "anatomy",
+                "name": "آناتومی",
+
+                "topics": {
+                    "basics": {"name": "مقدمات", "file_id": 252},
+                    "upper_limb": {"name": "اندام فوقانی", "file_id": -1},
+                    "lower_limb": {"name": "اندام تحتانی", "file_id": -1},
+                    "head_neck": {"name": "سر و گردن", "file_id": -1},
+                    "chest": {"name": "قفسه سینه", "file_id": 194},
+                    "abdomen": {"name": "شکم", "file_id": 238},
+                    "pelvis": {"name": "لگن", "file_id": 567},
+                    "neuro": {"name": "نوروآناتومی", "file_id": 601},
+                    "all": {"name": "همه یک جا", "file_id": 5}
                 }
             }
         }

@@ -48,8 +48,8 @@ def subjects_keyboard_creator(subjects_data, content):
     return reply_markup
 
 
-def pamphlets_keyboard_creator(subject_data):
-    topics = files_data["pamphlets"]["subjects"][subject_data]["topics"]
+def one_file_keyboard_creator(subject_data, content_kind):
+    topics = files_data[content_kind]["subjects"][subject_data]["topics"]
 
     keyboard_one_row = [
         InlineKeyboardButton(topics[topic]["name"], callback_data=f'send-file_{topics[topic]["file_id"]}') for topic in topics
@@ -59,7 +59,7 @@ def pamphlets_keyboard_creator(subject_data):
                          for i in range(0, len(keyboard_one_row), 2)]
 
     final_keyboard = add_back_button(
-        keyboard=keyboard_two_rows, back_to_where="pamphlets")
+        keyboard=keyboard_two_rows, back_to_where=content_kind)
 
     reply_markup = InlineKeyboardMarkup(final_keyboard)
     return reply_markup
@@ -100,4 +100,4 @@ async def forward_file(chat_id, channel_id, file_id, context):
     keyboard = [[InlineKeyboardButton('استارت', callback_data='start')]]
     reply_markup = InlineKeyboardMarkup(keyboard)
 
-    await context.bot.send_message(chat_id=chat_id, text="بفرما اینم از جزوه یا رفرنس مد نظرت ✌\n\nاگر جزوه یا رفرنس دیگه ای مد نظرته، دوباره ربات رو استارت کن ❤", reply_markup=reply_markup)
+    await context.bot.send_message(chat_id=chat_id, text="برای استفاده مجدد، استارت رو بزن 👇", reply_markup=reply_markup)
