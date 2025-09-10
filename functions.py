@@ -24,9 +24,11 @@ def content_keyboard_creator(contents):
                              callback_data=f'contents_{contents[content]["callback_data"]}')
         for content in contents
     ]
+    print(keyboard_one_row)
 
-    keyboard_two_rows = [keyboard_one_row[i:i+2]
+    keyboard_two_rows = [keyboard_one_row[:-1][i:i+2]
                          for i in range(0, len(keyboard_one_row), 2)]
+    keyboard_two_rows.append([keyboard_one_row[-1]])
 
     reply_markup = InlineKeyboardMarkup(keyboard_two_rows)
     return reply_markup

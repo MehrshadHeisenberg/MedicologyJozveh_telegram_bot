@@ -49,12 +49,12 @@ async def start(update: Update, context=ContextTypes.DEFAULT_TYPE):
     reply_markup = content_keyboard_creator(contents=files_data)
 
     if update.message:
-        await update.message.reply_text("جزوه میخوای یا رفرنس؟", reply_markup=reply_markup)
+        await update.message.reply_text("دنبال چی میگردی؟", reply_markup=reply_markup)
 
     if update.callback_query:
         query = update.callback_query
         # await query.answer()
-        await context.bot.edit_message_text(text="جزوه میخوای یا رفرنس؟", message_id=query.message.message_id, chat_id=chat_id, reply_markup=reply_markup)
+        await context.bot.edit_message_text(text="دنبال چی میگردی؟", message_id=query.message.message_id, chat_id=chat_id, reply_markup=reply_markup)
         # await query.edit_message_text("برای چه درسی جزوه میخوای؟", reply_markup=reply_markup)
 
 
@@ -95,7 +95,7 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if query.data.split('_')[0] == "back":
         if query.data.split('_')[1] == "contents":
             reply_markup = content_keyboard_creator(files_data)
-            await context.bot.edit_message_text(text="جزوه میخوای یا رفرنس؟", message_id=query.message.message_id, chat_id=chat_id, reply_markup=reply_markup)
+            await context.bot.edit_message_text(text="دنبال چی میگردی؟", message_id=query.message.message_id, chat_id=chat_id, reply_markup=reply_markup)
             return
 
         if query.data.split('_')[1] == "pamphlets":
@@ -136,6 +136,11 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 files_data["tutorials"]["subjects"], content="tutorials")
             await context.bot.edit_message_text(text="نوع محتوا: آموزش مدیکولوژی \n\n آموزش های چه درسی رو میخوای؟", message_id=query.message.message_id, chat_id=chat_id, reply_markup=reply_markup)
 
+        if query.data.split('_')[1] == "summaries":
+            reply_markup = subjects_keyboard_creator(
+                files_data["summaries"]["subjects"], content="summaries")
+            await context.bot.edit_message_text(text="نوع محتوا: خلاصه \n\n خلاصه های چه درسی رو میخوای؟", message_id=query.message.message_id, chat_id=chat_id, reply_markup=reply_markup)
+
     if query.data.split('_')[0] == "pamphlets":
         reply_markup = one_file_keyboard_creator(
             query.data.split('_')[1], "pamphlets")
@@ -155,6 +160,11 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await context.bot.edit_message_text(text=f'نوع محتوا: آموزش مدیکولوژی\nدرس: {files_data["tutorials"]["subjects"][query.data.split("_")[1]]["name"]}\n\nخب حالا مبحث مورد نظرتو انتخاب کن:', message_id=query.message.message_id, chat_id=chat_id, reply_markup=reply_markup)
         # await query.edit_message_text(text=f'درس: {files_data[query.data.split("_")[1]]["name"]}\n\nخب حالا مبحث مورد نظرتو انتخاب کن:', reply_markup=reply_markup)
         return
+
+    if query.data.split('_')[0] == "summaries":
+        reply_markup = subjects_keyboard_creator(
+            files_data["summaries"]["subjects"], content="summaries")
+        await context.bot.edit_message_text(text="نوع محتوا: خلاصه \n\n خلاصه های چه درسی رو میخوای؟", message_id=query.message.message_id, chat_id=chat_id, reply_markup=reply_markup)
 
     if query.data.split('_')[0] == "send-file":
         file_id = query.data.split('_')[1]

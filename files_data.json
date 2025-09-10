@@ -272,6 +272,34 @@
         }
     },
 
+    "summaries": {
+        "callback_data": "summaries",
+        "name": "خلاصه",
+
+        "subjects": {
+            "anatomy": {
+                "name": "آناتومی",
+                "files": [800, 789, 772, 771, 764, 721, 718, 703, 426]
+            },
+            "physiology": {
+                "name": "فیزیولوژی",
+                "files": [738]
+            },
+            "biochemistry": {
+                "name": "بیوشیمی",
+                "files": [745, 739]
+            },
+            "bacteriology": {
+                "name": "باکتری شناسی",
+                "files": [783]
+            },
+            "parasitology": {
+                "name": "انگل شناسی",
+                "files": [728]
+            }
+        }
+    },
+
     "tutorials": {
         "callback_data": "tutorials",
         "name": "آموزش های مدیکولوژی",
@@ -291,6 +319,15 @@
                     "pelvis": {"name": "لگن", "file_id": 567},
                     "neuro": {"name": "نوروآناتومی", "file_id": 601},
                     "all": {"name": "همه یک جا", "file_id": 5}
+                }
+            },
+
+            "physiology": {
+                "callback_data": "physiology",
+                "name": "فیزیولوژی",
+
+                "topics": {
+                    "heart": {"name": "قلب", "file_id": 695}
                 }
             }
         }
