@@ -16,7 +16,7 @@
                     "special_senses": {"name": "حواس ویژه", "file_id": 415},
                     "gi": {"name": "گوارش", "file_id": 414},
                     "renal": {"name": "کلیه", "file_id": 461},
-                    "genital": {"name": "تولید مثل", "file_id": -1},
+                    "genital": {"name": "تولید مثل", "file_id": 925},
                     "neuro": {"name": "نوروآناتومی", "file_id": 416},
                     "head_neck": {"name": "سر و گردن", "file_id": 412}
                 }
@@ -34,7 +34,7 @@
                     "heart": {"name": "قلب", "file_id": 423},
                     "gi": {"name": "گوارش", "file_id": 421},
                     "renal": {"name": "کلیه", "file_id": 541},
-                    "genital": {"name": "تولید مثل", "file_id": -1},
+                    "genital": {"name": "تولید مثل", "file_id": 926},
                     "neuro": {"name": "نوروفیزیولوژی", "file_id": 425}
                 }
             },
@@ -51,7 +51,7 @@
                     "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 430},
                     "gi": {"name": "گوارش", "file_id": 432},
                     "renal": {"name": "کلیه", "file_id": 542},
-                    "genital": {"name": "تولید مثل", "file_id": -1},
+                    "genital": {"name": "تولید مثل", "file_id": 924},
                     "neuro": {"name": "اعصاب", "file_id": 434}
                 }
             },
@@ -66,7 +66,7 @@
                     "heart_circulatory": {"name": "قلب و گردش خون", "file_id": 438},
                     "gi": {"name": "گوارش", "file_id": 443},
                     "renal": {"name": "کلیه", "file_id": 462},
-                    "genital": {"name": "تولید مثل", "file_id": -1},
+                    "genital": {"name": "تولید مثل", "file_id": 923},
                     "neuro": {"name": "اعصاب", "file_id": 441},
                     "head_neck": {"name": "سر و گردن", "file_id": 440}
                 }
@@ -80,7 +80,23 @@
                     "discipline": {"name": "دیسیپلین", "file_id": 446},
                     "endocrine": {"name": "هورمون ها", "file_id": 447},
                     "renal": {"name": "کلیه", "file_id": 463},
-                    "genital": {"name": "تولید مثل", "file_id": -1}
+                    "genital": {"name": "تولید مثل", "file_id": 931}
+                }
+            },
+
+             "bacteriology": {
+                "callback_data": "bacteriology",
+                "name": "باکتری شناسی",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": 930}
+                }
+            },
+
+            "virology": {
+                "callback_data": "virology",
+                "name": "ویروس شناسی",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": 929}
                 }
             },
 
@@ -129,6 +145,46 @@
                 "name": "تغذیه",
                 "topics": {
                     "all": {"name": "همه مباحث", "file_id": 453}
+                }
+            },
+
+            "accidents": {
+                "callback_data": "accidents",
+                "name": "حوادث و بلایا",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": -1}
+                }
+            },
+
+            "physics": {
+                "callback_data": "physics",
+                "name": "فیزیک پزشکی",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": -1}
+                }
+            },
+
+            "genetics": {
+                "callback_data": "genetics",
+                "name": "ژنتیک",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": -1}
+                }
+            },
+
+            "generalpathology": {
+                "callback_data": "generalpathology",
+                "name": "پاتولوژی عمومی",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": -1}
+                }
+            },
+
+            "generalpharmacology": {
+                "callback_data": "generalpharmacology",
+                "name": "فارماکولوژی عمومی",
+                "topics": {
+                    "all": {"name": "همه مباحث", "file_id": -1}
                 }
             }
         }
@@ -283,11 +339,11 @@
             },
             "physiology": {
                 "name": "فیزیولوژی",
-                "files": [738]
+                "files": [738, 762]
             },
             "biochemistry": {
                 "name": "بیوشیمی",
-                "files": [745, 739]
+                "files": [745, 739, 747, 734]
             },
             "bacteriology": {
                 "name": "باکتری شناسی",
@@ -296,6 +352,10 @@
             "parasitology": {
                 "name": "انگل شناسی",
                 "files": [728]
+            },
+            "embryology": {
+                "name": "جنین شناسی",
+                "files": [741]
             }
         }
     },
@@ -327,7 +387,9 @@
                 "name": "فیزیولوژی",
 
                 "topics": {
-                    "heart": {"name": "قلب", "file_id": 695}
+                    "heart": {"name": "قلب", "file_id": 695},
+                    "circulatory": {"name": "گردش خون", "file_id": 885},
+                    "all": {"name": "همه یک جا", "file_id": 915}
                 }
             }
         }
